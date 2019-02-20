@@ -32,4 +32,8 @@ Daten/Privat/
 *.toc
 *.vrb
 *.xdy
-*.pdf
+*.aux
+*-blx.bib
+*.bcf
+*.fls
+*.xml
