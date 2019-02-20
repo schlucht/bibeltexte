@@ -44,8 +44,7 @@
   <internal package="biblatex" priority="9" active="1">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>Hauptdokument.aux</file>
-      <file>Hauptdokument-blx.bib</file>
+      <file>Hauptdokument.bcf</file>
     </provides>
     <requires type="dynamic">
       <file>Hauptdokument.bbl</file>
@@ -53,25 +52,23 @@
     <requires type="static">
       <file>blx-dm.def</file>
       <file>blx-compat.def</file>
-      <file>blx-bibtex.def</file>
       <file>biblatex.def</file>
-      <file>verbose.bbx</file>
-      <file>authortitle.bbx</file>
       <file>standard.bbx</file>
-      <file>verbose.cbx</file>
+      <file>numeric.bbx</file>
+      <file>numeric.cbx</file>
       <file>biblatex.cfg</file>
-      <file>english.lbx</file>
+      <file>german.lbx</file>
+      <file>ngerman.lbx</file>
     </requires>
   </internal>
   <external package="biblatex" priority="5" active="1">
-    <generic>bibtex</generic>
+    <generic>biber</generic>
     <cmdline>
-      <binary>bibtex</binary>
-      <option>-min-crossrefs 2</option>
+      <binary>biber</binary>
       <infile>Hauptdokument</infile>
     </cmdline>
     <input>
-      <file>Hauptdokument.aux</file>
+      <file>Hauptdokument.bcf</file>
     </input>
     <output>
       <file>Hauptdokument.bbl</file>
@@ -80,14 +77,7 @@
       <file>Hauptdokument.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>Hauptdokument.aux</file>
-      <file>Hauptdokument-blx.bib</file>
-    </requires>
-    <requires type="editable">
-      <file>literatur.bib</file>
-    </requires>
-    <requires type="static">
-      <file>biblatex.bst</file>
+      <file>Hauptdokument.bcf</file>
     </requires>
   </external>
 </requests>

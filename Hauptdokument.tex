@@ -1,15 +1,14 @@
-\documentclass[a4paper, 12pt, twoside, titlepage,headsepline]{scrartcl}
+\documentclass[a4paper, 12pt]{article}
 
-\usepackage[utf8]{inputenc}
+\usepackage[polutonikogreek, ngerman]{babel}
+\usepackage[utf8x]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
-\usepackage{ngerman}
-\usepackage{bibleref}
 \usepackage{bibleref-german}
 \usepackage{blindtext}
 \usepackage{graphicx}
 \usepackage{geometry}
-\usepackage[babel, german=swiss]{csquotes}
+
 
 %%%%%%%%%%%%%%%%%%%%%%Link Formatierung%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage[colorlinks = true,
@@ -18,12 +17,12 @@ urlcolor  = blue,
 citecolor = black,
 anchorcolor = blue]{hyperref}
 
-%%%%%%%%%%%%%%%%%%%%%Bibliothek%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\usepackage[backend=bibtex,style=verbose,backref=true,]{biblatex}
-\setlength{\bibitemsep}{1em}     % Abstand zwischen den Literaturangaben
-\setlength{\bibhang}{2em}        % Einzug nach jeweils erster Zeile
+%%%%%%%%%%%%%%%%%%%%%Griechische Zeichen%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{otherlanguage}{polutonikogreek} 
+%	Δοκεῖ δέ μοι καὶ Καρχηδόνα μὴ εἶναι. 
+%\end{otherlanguage} 
 
-\addbibresource{literatur.bib}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -34,13 +33,17 @@ anchorcolor = blue]{hyperref}
 %			Elb			Elbfelder
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	\newcommand{\bib}[1]{%
-	\ifthenelse{\equal{#1}{LuN}}{Neue Luther}{%
+	\ifthenelse{\equal{#1}{EI}}{Einheitsübersetzung}{%
 		\ifthenelse{\equal{#1}{Sch2}}{Schlachter 2000}{%
 			\ifthenelse{\equal{#1}{HFA}}{Hoffnung für Alle}{%
-				\ifthenelse{\equal{#1}{ELB}}{Elbfelder}{#1}%
+				\ifthenelse{\equal{#1}{ELB}}{Elbfelder}{%
+					\ifthenelse{\equal{#1}{Gr}}{Griechisch}{%
+						\ifthenelse{\equal{#1}{LuN}}{Luther 2017}{#1}%
+					}
+				}%
 			}%
 		}%
-	}%
+	}
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -73,15 +76,15 @@ anchorcolor = blue]{hyperref}
 \pagestyle{headings}
 
 %%%%%%%%%%%%%%%%% Beginn Dokument %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
 \begin{document}
 
 \maketitle[-1]
-
-\include{inhaltsverzeichnis}
 \include{Texte/vorwort}
-\include{bibliothek}
-
-%% Zu letzt einbinden für die Textreferenzen %%
-\include{referenz}
+\part{Bibel}
+\include{Texte/Philipper/erklaerung}
+\part{Allgemein}
+\include{Texte/Allgemein/paradies}
 
 \end{document}
