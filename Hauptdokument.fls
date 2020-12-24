@@ -204,6 +204,10 @@ INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/lm/ec-lmr17.tfm
 INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/lm/ec-lmbx12.tfm
 INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/lm/ec-lmro12.tfm
 OUTPUT c:/Users/lothi_000/Documents/bibeltexte/Texte/Allgemein/grundlegendes.aux
+INPUT c:/Users/lothi_000/Documents/bibeltexte/Texte/Allgemein/grundlegendes.tex
+INPUT c:/Users/lothi_000/Documents/bibeltexte/Texte/Allgemein/grundlegendes.tex
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/lm/ec-lmbx12.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/lm/ec-lmbx12.tfm
 INPUT c:/Users/lothi_000/Documents/bibeltexte/Hauptdokument.aux
 INPUT c:/Users/lothi_000/Documents/bibeltexte/Texte/vorwort.aux
 INPUT c:/Users/lothi_000/Documents/bibeltexte/Texte/vorwort.aux

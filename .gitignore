@@ -10,6 +10,7 @@ Daten/Privat/
 *.blg
 *.dvi
 *.fdb_latexmk
+*.fls
 *.glg
 *.glo
 *.gls
@@ -39,3 +40,4 @@ Daten/Privat/
 *.fls
 *.xml
 *.pdf
+
