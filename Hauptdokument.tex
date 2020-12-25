@@ -1,4 +1,5 @@
-\documentclass[a4paper, 12pt]{article}
+\documentclass[a4paper, 11pt]{article}
+
 
 \usepackage[ngerman]{babel}
 \usepackage[utf8]{inputenc}
@@ -79,12 +80,13 @@ anchorcolor = blue]{hyperref}
 
 
 \begin{document}
+\tableofcontents
 
-\maketitle[-1]
-
-\include{Texte/vorwort}
-
-\include{Texte/Allgemein/grundlegendes}
+\newpage
+\section{Vorwort}
+\include{Allgemein/Vorwort}
+\section{Kurs}
+\include{Texte/Kurs/Tag1}
 
 %\include{Texte/Philipper/erklaerung}
 

@@ -4,9 +4,9 @@ INPUT c:/Users/lothi_000/Documents/bibeltexte/Hauptdokument.tex
 OUTPUT c:/Users/lothi_000/Documents/bibeltexte/Hauptdokument.log
 INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/article.cls
 INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/article.cls
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/size12.clo
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/size12.clo
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr12.tfm
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/size11.clo
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/size11.clo
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
 INPUT C:/Program Files/MiKTeX 2.9/tex/generic/babel/babel.sty
 INPUT C:/Program Files/MiKTeX 2.9/tex/generic/babel/babel.sty
 INPUT C:/Program Files/MiKTeX 2.9/tex/generic/babel/switch.def
@@ -31,7 +31,7 @@ INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/fontenc.sty
 INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/fontenc.sty
 INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/t1enc.def
 INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/t1enc.def
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecrm1200.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecrm1095.tfm
 INPUT C:/Program Files/MiKTeX 2.9/tex/latex/lm/lmodern.sty
 INPUT C:/Program Files/MiKTeX 2.9/tex/latex/lm/lmodern.sty
 INPUT C:/Program Files/MiKTeX 2.9/tex/latex/bibleref-german/bibleref-german.sty
@@ -144,14 +144,14 @@ INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/uniquecounter.sty
 INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/uniquecounter.sty
 INPUT c:/Users/lothi_000/Documents/bibeltexte/Hauptdokument.aux
 INPUT c:/Users/lothi_000/Documents/bibeltexte/Hauptdokument.aux
-INPUT c:/Users/lothi_000/Documents/bibeltexte/Texte/vorwort.aux
-INPUT c:/Users/lothi_000/Documents/bibeltexte/Texte/vorwort.aux
-INPUT c:/Users/lothi_000/Documents/bibeltexte/Texte/Allgemein/grundlegendes.aux
-INPUT c:/Users/lothi_000/Documents/bibeltexte/Texte/Allgemein/grundlegendes.aux
+INPUT c:/Users/lothi_000/Documents/bibeltexte/Allgemein/Vorwort.aux
+INPUT c:/Users/lothi_000/Documents/bibeltexte/Allgemein/Vorwort.aux
+INPUT c:/Users/lothi_000/Documents/bibeltexte/Texte/Kurs/Tag1.aux
+INPUT c:/Users/lothi_000/Documents/bibeltexte/Texte/Kurs/Tag1.aux
 OUTPUT c:/Users/lothi_000/Documents/bibeltexte/Hauptdokument.aux
 INPUT C:/Program Files/MiKTeX 2.9/tex/latex/lm/t1lmr.fd
 INPUT C:/Program Files/MiKTeX 2.9/tex/latex/lm/t1lmr.fd
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/lm/ec-lmr12.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/lm/ec-lmr10.tfm
 INPUT C:/Program Files/MiKTeX 2.9/tex/context/base/supp-pdf.mkii
 INPUT C:/Program Files/MiKTeX 2.9/tex/context/base/supp-pdf.mkii
 INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/epstopdf-base.sty
@@ -176,51 +176,31 @@ OUTPUT c:/Users/lothi_000/Documents/bibeltexte/Hauptdokument.pdf
 INPUT c:/Users/lothi_000/Documents/bibeltexte/Hauptdokument.out
 INPUT c:/Users/lothi_000/Documents/bibeltexte/Hauptdokument.out
 OUTPUT c:/Users/lothi_000/Documents/bibeltexte/Hauptdokument.out
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/lm/ec-lmr17.tfm
 INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/lm/ec-lmr12.tfm
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/lm/ot1lmr.fd
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/lm/ot1lmr.fd
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/lm/rm-lmr12.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/lm/rm-lmr10.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/lm/rm-lmr7.tfm
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/lm/omllmm.fd
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/lm/omllmm.fd
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/lm/lmmi12.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/lm/lmmi10.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/lm/lmmi7.tfm
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/lm/omslmsy.fd
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/lm/omslmsy.fd
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/lm/lmsy10.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/lm/lmsy10.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/lm/lmsy7.tfm
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/lm/omxlmex.fd
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/lm/omxlmex.fd
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/lm/lmex10.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/lm/ec-lmbx12.tfm
+INPUT c:/Users/lothi_000/Documents/bibeltexte/Hauptdokument.toc
+INPUT c:/Users/lothi_000/Documents/bibeltexte/Hauptdokument.toc
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/lm/ec-lmbx10.tfm
+OUTPUT c:/Users/lothi_000/Documents/bibeltexte/Hauptdokument.toc
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/lm/ec-lmro10.tfm
 INPUT C:/Users/lothi_000/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map
-OUTPUT c:/Users/lothi_000/Documents/bibeltexte/Texte/vorwort.aux
-INPUT c:/Users/lothi_000/Documents/bibeltexte/Texte/vorwort.tex
-INPUT c:/Users/lothi_000/Documents/bibeltexte/Texte/vorwort.tex
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/lm/ec-lmr17.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/lm/ec-lmbx12.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/lm/ec-lmro12.tfm
-OUTPUT c:/Users/lothi_000/Documents/bibeltexte/Texte/Allgemein/grundlegendes.aux
-INPUT c:/Users/lothi_000/Documents/bibeltexte/Texte/Allgemein/grundlegendes.tex
-INPUT c:/Users/lothi_000/Documents/bibeltexte/Texte/Allgemein/grundlegendes.tex
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/lm/ec-lmbx12.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/lm/ec-lmbx12.tfm
+OUTPUT c:/Users/lothi_000/Documents/bibeltexte/Allgemein/Vorwort.aux
+INPUT c:/Users/lothi_000/Documents/bibeltexte/Allgemein/Vorwort.tex
+INPUT c:/Users/lothi_000/Documents/bibeltexte/Allgemein/Vorwort.tex
+OUTPUT c:/Users/lothi_000/Documents/bibeltexte/Texte/Kurs/Tag1.aux
 INPUT c:/Users/lothi_000/Documents/bibeltexte/Hauptdokument.aux
-INPUT c:/Users/lothi_000/Documents/bibeltexte/Texte/vorwort.aux
-INPUT c:/Users/lothi_000/Documents/bibeltexte/Texte/vorwort.aux
-INPUT c:/Users/lothi_000/Documents/bibeltexte/Texte/Allgemein/grundlegendes.aux
-INPUT c:/Users/lothi_000/Documents/bibeltexte/Texte/Allgemein/grundlegendes.aux
+INPUT c:/Users/lothi_000/Documents/bibeltexte/Allgemein/Vorwort.aux
+INPUT c:/Users/lothi_000/Documents/bibeltexte/Allgemein/Vorwort.aux
+INPUT c:/Users/lothi_000/Documents/bibeltexte/Texte/Kurs/Tag1.aux
+INPUT c:/Users/lothi_000/Documents/bibeltexte/Texte/Kurs/Tag1.aux
 INPUT c:/Users/lothi_000/Documents/bibeltexte/Hauptdokument.out
 INPUT c:/Users/lothi_000/Documents/bibeltexte/Hauptdokument.out
 INPUT C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb
 INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb
 INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb
-INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb
-INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb
-INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb
-INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb
-INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmro12.pfb
-INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmro12.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmro10.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmro10.pfb
