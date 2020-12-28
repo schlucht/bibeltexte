@@ -8,9 +8,17 @@
 \usepackage{bibleref-german}
 \usepackage{blindtext}
 \usepackage{graphicx}
-\usepackage{geometry}
+% \usepackage{geometry}
+\usepackage[sort, numbers, square]{natbib}
 
-
+\usepackage[
+  showframe,% Seitenlayout anzeigen
+  left=3cm,
+  right=2cm,
+  top=2.5cm,
+  bottom=2cm,
+  %includeheadfoot
+]{geometry}
 %%%%%%%%%%%%%%%%%%%%%%Link Formatierung%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage[colorlinks = true,
 linkcolor = black,
@@ -80,15 +88,17 @@ anchorcolor = blue]{hyperref}
 
 
 \begin{document}
+\bibliographystyle{alphadin}
 \tableofcontents
 
 \newpage
-\section{Vorwort}
+% \section{Vorwort}
 \include{Allgemein/Vorwort}
 \section{Kurs}
-\include{Texte/Kurs/Tag1}
+\include{Kurs/Tag1}
 
-%\include{Texte/Philipper/erklaerung}
+\section{Literaturverzeichnis}
+\bibliography{Literatur}l
 
 
 
