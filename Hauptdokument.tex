@@ -9,16 +9,16 @@
 \usepackage{blindtext}
 \usepackage{graphicx}
 % \usepackage{geometry}
-\usepackage[sort, numbers, square]{natbib}
+%\usepackage[sort]{natbib}
 
-\usepackage[
-  showframe,% Seitenlayout anzeigen
-  left=3cm,
-  right=2cm,
-  top=2.5cm,
-  bottom=2cm,
-  %includeheadfoot
-]{geometry}
+% \usepackage[
+%   showframe,% Seitenlayout anzeigen
+%   left=3cm,
+%   right=2cm,
+%   top=2.5cm,
+%   bottom=2cm,
+%   %includeheadfoot
+% ]{geometry}
 %%%%%%%%%%%%%%%%%%%%%%Link Formatierung%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage[colorlinks = true,
 linkcolor = black,
@@ -64,18 +64,18 @@ anchorcolor = blue]{hyperref}
 %		\end{bibeltext}
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newcommand{\bibtit}[1]{\small\bib{#1}}
+\newcommand{\bibtit}[1]{\large\bib{#1}}
 \newcommand{\tmpbib}{Hallo}
-
 \newenvironment{bibeltext}[3]{%
-	\quote 
-	\begin{itshape}
-		\biblerefformat{lang}%
-		\renewcommand{\tmpbib}{\textbf{\bibleverse{#1}(#2)}(\bibtit{#3})}
+	\quote \begin{itshape}
+		\begin{scriptsize}
+			(\bib{#1})	
+		\end{scriptsize}	
+		\biblerefformat{lang}
+		\renewcommand{\tmpbib}{\textbf{\bibleverse{#2}(#3)}}		
 	}{%	
 		\tmpbib
 	\end{itshape}
-		
 	\endquote		
 }
 %%%%%%%%%%%%% Titelseite %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -88,17 +88,20 @@ anchorcolor = blue]{hyperref}
 
 
 \begin{document}
-\bibliographystyle{alphadin}
+
+\bibliographystyle{ieeetr}
 \tableofcontents
 
 \newpage
 % \section{Vorwort}
-\include{Allgemein/Vorwort}
+\input {Allgemein/Vorwort}
 \section{Kurs}
+
+
 \input{Kurs/Tag1}
 
 \section{Literaturverzeichnis}
-\bibliography{Literatur}l
+\bibliography{Literatur}
 
 
 
