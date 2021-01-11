@@ -8,17 +8,17 @@
 \usepackage{bibleref-german}
 \usepackage{blindtext}
 \usepackage{graphicx}
-% \usepackage{geometry}
+\usepackage{geometry}
 %\usepackage[sort]{natbib}
 
-% \usepackage[
-%   showframe,% Seitenlayout anzeigen
-%   left=3cm,
-%   right=2cm,
-%   top=2.5cm,
-%   bottom=2cm,
-%   %includeheadfoot
-% ]{geometry}
+ \geometry{
+   %showframe, % Seitenlayout anzeigen
+   left=2cm,
+   right=1.5cm,
+   top=2.5cm,
+   bottom=0.5cm,
+   includeheadfoot
+ }
 %%%%%%%%%%%%%%%%%%%%%%Link Formatierung%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage[colorlinks = true,
 linkcolor = black,
@@ -30,8 +30,6 @@ anchorcolor = blue]{hyperref}
 %\begin{otherlanguage}{polutonikogreek} 
 %	Δοκεῖ δέ μοι καὶ Καρχηδόνα μὴ εἶναι. 
 %\end{otherlanguage} 
-
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -54,6 +52,7 @@ anchorcolor = blue]{hyperref}
 		}%
 	}
 }
+\newcommand{\herr}{HErr}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 % Makro für Bibelzitate
@@ -68,11 +67,11 @@ anchorcolor = blue]{hyperref}
 \newcommand{\tmpbib}{Hallo}
 \newenvironment{bibeltext}[3]{%
 	\quote \begin{itshape}
-		\begin{scriptsize}
+		%\begin{scriptsize}
 			(\bib{#1})	
-		\end{scriptsize}	
+		%\end{scriptsize}	
 		\biblerefformat{lang}
-		\renewcommand{\tmpbib}{\textbf{\bibleverse{#2}(#3)}}		
+		\renewcommand{\tmpbib}{\newline\textbf{\bibleverse{#2}(#3)}}		
 	}{%	
 		\tmpbib
 	\end{itshape}
@@ -95,11 +94,12 @@ anchorcolor = blue]{hyperref}
 \newpage
 % \section{Vorwort}
 \input {Allgemein/Vorwort}
-\section{Kurs}
-
-
-\input{Kurs/Tag1}
-
+\section{Die Bibel}
+\input{Kurs/bibelAt}
+\newpage
+\section{Bibliologie}
+\input{Kurs/bibliologie}
+\newpage
 \section{Literaturverzeichnis}
 \bibliography{Literatur}
 
