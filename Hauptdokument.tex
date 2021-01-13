@@ -1,4 +1,4 @@
-\documentclass[a4paper, 11pt]{article}
+\documentclass[a4paper, 12pt]{article}
 
 
 \usepackage[ngerman]{babel}
@@ -9,6 +9,10 @@
 \usepackage{blindtext}
 \usepackage{graphicx}
 \usepackage{geometry}
+\usepackage[onehalfspacing]{setspace}
+\usepackage{fancyhdr}
+
+
 %\usepackage[sort]{natbib}
 
  \geometry{
@@ -16,9 +20,16 @@
    left=2cm,
    right=1.5cm,
    top=2.5cm,
-   bottom=0.5cm,
-   includeheadfoot
+   bottom=1.5cm,
+   includeheadfoot%
  }
+ \pagestyle{fancy}
+\fancyhf{}
+\rhead{MNR-Kurs}
+\lhead{\leftmark}
+\cfoot{- \thepage{} -}
+\renewcommand{\footnoterule}
+    {\noindent\smash{\rule[5pt]{\textwidth}{0.4pt}}}
 %%%%%%%%%%%%%%%%%%%%%%Link Formatierung%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage[colorlinks = true,
 linkcolor = black,
@@ -81,7 +92,7 @@ anchorcolor = blue]{hyperref}
 \title{Bibelschule MSCN}
 \author{Schmid Lothar}
 \date{\today}
-\pagestyle{headings}
+%\pagestyle{headings}
 
 %%%%%%%%%%%%%%%%% Beginn Dokument %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -94,7 +105,8 @@ anchorcolor = blue]{hyperref}
 \newpage
 % \section{Vorwort}
 \input {Allgemein/Vorwort}
-\section{Die Bibel}
+\newpage
+\section{Altes Testament}
 \input{Kurs/bibelAt}
 \newpage
 \section{Bibliologie}
