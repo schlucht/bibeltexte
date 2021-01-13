@@ -11,7 +11,7 @@
 \usepackage{geometry}
 \usepackage[onehalfspacing]{setspace}
 \usepackage{fancyhdr}
-
+\usepackage{lastpage}
 
 %\usepackage[sort]{natbib}
 
@@ -27,15 +27,16 @@
 \fancyhf{}
 \rhead{MNR-Kurs}
 \lhead{\leftmark}
-\cfoot{- \thepage{} -}
+%foot{- \thepage{} -}
+\cfoot{Page \thepage \hspace{1pt} of \pageref{LastPage}}
 \renewcommand{\footnoterule}
     {\noindent\smash{\rule[5pt]{\textwidth}{0.4pt}}}
 %%%%%%%%%%%%%%%%%%%%%%Link Formatierung%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage[colorlinks = true,
-linkcolor = black,
-urlcolor  = blue,
-citecolor = black,
-anchorcolor = blue]{hyperref}
+    linkcolor = black,
+    urlcolor  = blue,
+    citecolor = black,
+    anchorcolor = blue]{hyperref}
 
 %%%%%%%%%%%%%%%%%%%%%Griechische Zeichen%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\begin{otherlanguage}{polutonikogreek} 
@@ -95,7 +96,7 @@ anchorcolor = blue]{hyperref}
 %\pagestyle{headings}
 
 %%%%%%%%%%%%%%%%% Beginn Dokument %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+\setlength{\parindent}{6pt}
 
 \begin{document}
 
