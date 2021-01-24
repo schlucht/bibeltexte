@@ -12,7 +12,8 @@
 \usepackage[onehalfspacing]{setspace}
 \usepackage{fancyhdr}
 \usepackage{lastpage}
-
+\usepackage{csquotes}
+\MakeOuterQuote{"}
 %\usepackage[sort]{natbib}
 
  \geometry{
@@ -58,12 +59,12 @@
 				\ifthenelse{\equal{#1}{ELB}}{Elbfelder}{%
 					\ifthenelse{\equal{#1}{Gr}}{Griechisch}{%
 						\ifthenelse{\equal{#1}{LuN}}{Luther 2017}{#1}%
-					}
+					}%
 				}%
 			}%
 		}%
-	}
-}
+	}%
+}%
 \newcommand{\herr}{HErr}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -79,11 +80,8 @@
 \newcommand{\tmpbib}{Hallo}
 \newenvironment{bibeltext}[3]{%
 	\quote \begin{itshape}
-		%\begin{scriptsize}
-			(\bib{#1})	
-		%\end{scriptsize}	
 		\biblerefformat{lang}
-		\renewcommand{\tmpbib}{\newline\textbf{\bibleverse{#2}(#3)}}		
+		\renewcommand{\tmpbib}{\newline\textbf{\bibleverse{#2}(#3)} (\bib{#1})}	
 	}{%	
 		\tmpbib
 	\end{itshape}
