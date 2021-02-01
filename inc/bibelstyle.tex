@@ -1,0 +1,43 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Makro zur Namensvervollstädigung
+% Parameter: Kürzel --- Bibel
+%			LuN			Neue Luther Übersetzung
+%			Sch2		Schlachter 2000
+%			Elb			Elbfelder
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\newcommand{\bib}[1]{%
+	\ifthenelse{\equal{#1}{EI}}{Einheitsübersetzung}{%
+		\ifthenelse{\equal{#1}{Sch2}}{Schlachter 2000}{%
+			\ifthenelse{\equal{#1}{HFA}}{Hoffnung für Alle}{%
+				\ifthenelse{\equal{#1}{ELB}}{Elbfelder}{%
+					\ifthenelse{\equal{#1}{Gr}}{Griechisch}{%
+						\ifthenelse{\equal{#1}{LuN}}{Luther 2017}{#1}%
+					}%
+				}%
+			}%
+		}%
+	}%
+}%
+\newcommand{\herr}{HErr}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Makro für Bibelzitate
+% 
+% Beispiel: 
+%		\begin{bibeltext}{ELB}{Matt}{1:1-4}
+%			Ich bin der zitierte Bibeltext.
+%		\end{bibeltext}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\bibtit}[1]{\large\bib{#1}}
+% \newcommand{\tmpbib}{Hallo}
+\newenvironment{bibeltext}[3]{%
+	\quote \begin{itshape}			
+		\biblerefformat{lang}
+		\newcommand{\tmpbib}{\newline\textbf{\bibleverse{#2}(#3)} (\bib{#1})}
+		 }{%
+		\tmpbib
+	\end{itshape}
+	\endquote		
+}

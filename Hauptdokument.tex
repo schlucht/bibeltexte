@@ -1,103 +1,21 @@
 \documentclass{scrreprt}
 
+\input{inc/styles}
+\input{inc/bibelstyle}
 
-\usepackage[ngerman]{babel}
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-
-\KOMAoptions{%
-	parskip=off,%
-	fontsize=12pt
-}
-
-\usepackage{lmodern}
-\usepackage{bibleref-german}
-\usepackage{blindtext}
-\usepackage{graphicx}
-\usepackage{geometry}
-%\usepackage[onehalfspacing]{setspace}
-
-\usepackage{lastpage}
-\usepackage{fancyhdr}
-\usepackage{tikz}
-
-%\usepackage[sort]{natbib}
-
- \geometry{
-   %showframe, % Seitenlayout anzeigen
-   left=2cm,
-   right=1.5cm,
-   top=2.5cm,
-   bottom=1.5cm,
-   includeheadfoot%
- }
- \pagestyle{fancy}
+\pagestyle{fancy}
 \fancyhf{}
-\rhead{MNR-Kurs}
+\rhead{GBSM-Kurs}
 \lhead{\leftmark}
-%foot{- \thepage{} -}
-\cfoot{Page \thepage \hspace{1pt} of \pageref{LastPage}}
+\cfoot{Seite\thepage \hspace{1pt} von \pageref{LastPage}}
 \renewcommand{\footnoterule}
     {\noindent\smash{\rule[5pt]{\textwidth}{0.4pt}}}
-%%%%%%%%%%%%%%%%%%%%%%Link Formatierung%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\usepackage[colorlinks = true,
-    linkcolor = black,
-    urlcolor  = blue,
-    citecolor = black,
-    anchorcolor = blue]{hyperref}
 
-%%%%%%%%%%%%%%%%%%%%%Griechische Zeichen%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\begin{otherlanguage}{polutonikogreek} 
-%	Δοκεῖ δέ μοι καὶ Καρχηδόνα μὴ εἶναι. 
-%\end{otherlanguage} 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% Makro zur Namensvervollstädigung
-% Parameter: Kürzel --- Bibel
-%			LuN			Neue Luther Übersetzung
-%			Sch2		Schlachter 2000
-%			Elb			Elbfelder
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	\newcommand{\bib}[1]{%
-	\ifthenelse{\equal{#1}{EI}}{Einheitsübersetzung}{%
-		\ifthenelse{\equal{#1}{Sch2}}{Schlachter 2000}{%
-			\ifthenelse{\equal{#1}{HFA}}{Hoffnung für Alle}{%
-				\ifthenelse{\equal{#1}{ELB}}{Elbfelder}{%
-					\ifthenelse{\equal{#1}{Gr}}{Griechisch}{%
-						\ifthenelse{\equal{#1}{LuN}}{Luther 2017}{#1}%
-					}%
-				}%
-			}%
-		}%
-	}%
-}%
-\newcommand{\herr}{HErr}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% Makro für Bibelzitate
-% 
-% Beispiel: 
-%		\begin{bibeltext}{ELB}{Matt}{1:1-4}
-%			Ich bin der zitierte Bibeltext.
-%		\end{bibeltext}
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newcommand{\bibtit}[1]{\large\bib{#1}}
-% \newcommand{\tmpbib}{Hallo}
-\newenvironment{bibeltext}[3]{%
-	\quote \begin{itshape}			
-		\biblerefformat{lang}
-		\newcommand{\tmpbib}{\newline\textbf{\bibleverse{#2}(#3)} (\bib{#1})}
-		 }{%
-		\tmpbib
-	\end{itshape}
-	\endquote		
-}
 %%%%%%%%%%%%% Titelseite %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\title{Bibelschule MSCN}
+\title{\textcolor{green}{Bibelschule GBSM}}
 \author{Schmid Lothar}
-\date{\today}
+\date{2021 -- 2022}
 %\pagestyle{headings}
 
 %%%%%%%%%%%%%%%%% Beginn Dokument %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -109,15 +27,10 @@
 \tableofcontents
 
 \newpage
-\chapter{Allgemein}
+
 \input {Allgemein/Vorwort}
-\newpage
-\chapter{Altes Testament}
 \input{Kurs/bibelAt}
-\newpage
-\chapter{Bibliologie}
 \input{Kurs/bibliologie}
-\newpage
 \chapter{Literaturverzeichnis}
 \bibliography{Literatur}
 
