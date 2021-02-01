@@ -1,9 +1,15 @@
-\documentclass[a4paper, 12pt]{article}
+\documentclass{scrreprt}
 
 
 \usepackage[ngerman]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+
+\KOMAoptions{%
+	parskip=off,%
+	fontsize=12pt
+}
+
 \usepackage{lmodern}
 \usepackage{bibleref-german}
 \usepackage{blindtext}
@@ -99,7 +105,7 @@
 
 \bibliographystyle{unsrt}
 \begin{document}
-
+\maketitle
 \tableofcontents
 
 \newpage

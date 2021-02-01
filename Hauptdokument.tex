@@ -1,9 +1,15 @@
-\documentclass[a4paper, 12pt]{article}
+\documentclass{scrreprt}
 
 
 \usepackage[ngerman]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+
+\KOMAoptions{%
+	parskip=off,%
+	fontsize=12pt
+}
+
 \usepackage{lmodern}
 \usepackage{bibleref-german}
 \usepackage{blindtext}
@@ -99,20 +105,20 @@
 
 \bibliographystyle{unsrt}
 \begin{document}
-
+\maketitle
 \tableofcontents
 
 \newpage
-% \section{Vorwort}
+\chapter{Allgemein}
 \input {Allgemein/Vorwort}
 \newpage
-\section{Altes Testament}
+\chapter{Altes Testament}
 \input{Kurs/bibelAt}
 \newpage
-\section{Bibliologie}
+\chapter{Bibliologie}
 \input{Kurs/bibliologie}
 \newpage
-\section{Literaturverzeichnis}
+\chapter{Literaturverzeichnis}
 \bibliography{Literatur}
 
 
