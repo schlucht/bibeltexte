@@ -1,4 +1,4 @@
-\documentclass{scrreprt}
+\documentclass{inc/bible_class}
 
 \input{inc/styles}
 \input{inc/bibelstyle}
@@ -7,15 +7,19 @@
 \fancyhf{}
 \rhead{GBSM-Kurs}
 \lhead{\leftmark}
-\cfoot{Seite\thepage \hspace{1pt} von \pageref{LastPage}}
+\cfoot{Seite \thepage \hspace{1pt} von \pageref{LastPage}}
 \renewcommand{\footnoterule}
     {\noindent\smash{\rule[5pt]{\textwidth}{0.4pt}}}
 
 
 %%%%%%%%%%%%% Titelseite %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\title{\textcolor{green}{Bibelschule GBSM}}
+%\title{\textcolor{green}{Bibelschule GBSM}}
 \author{Schmid Lothar}
 \date{2021 -- 2022}
+\title{
+    \includegraphics[scale=1]{Daten/images/GBSM.png}\\
+    \textbf{Bibelschule Mitternachtsruf}
+}
 %\pagestyle{headings}
 
 %%%%%%%%%%%%%%%%% Beginn Dokument %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -28,9 +32,9 @@
 
 \newpage
 
-\input {Allgemein/Vorwort}
-\input{Kurs/bibelAt}
-\input{Kurs/bibliologie}
+\include{Allgemein/Vorwort}
+\include{Kurs/bibelAt}
+\include{Kurs/bibliologie}
 \chapter{Literaturverzeichnis}
 \bibliography{Literatur}
 
