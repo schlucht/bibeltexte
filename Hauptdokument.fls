@@ -1,16 +1,16 @@
-PWD c:\Users\lothi\Documents\Bibelschule
-INPUT C:\Users\lothi\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\lothi\Documents\Bibelschule\Hauptdokument.tex
-OUTPUT c:\Users\lothi\Documents\Bibelschule\Hauptdokument.log
-INPUT c:\Users\lothi\Documents\Bibelschule\inc\bible_class.cls
-INPUT c:\Users\lothi\Documents\Bibelschule\inc\bible_class.cls
-INPUT c:\Users\lothi\Documents\Bibelschule\inc\bible_class.cls
-INPUT c:\Users\lothi\Documents\Bibelschule\inc\bible_class.cls
-INPUT c:\Users\lothi\Documents\Bibelschule\inc\bible_class.cls
-INPUT c:\Users\lothi\Documents\Bibelschule\inc\bible_class.cls
-INPUT c:\Users\lothi\Documents\Bibelschule\inc\bible_class.cls
-INPUT c:\Users\lothi\Documents\Bibelschule\inc\bible_class.cls
-INPUT c:\Users\lothi\Documents\Bibelschule\inc\bible_class.cls
+PWD C:\Users\jlsch\Documents\glaube\bibeltexte
+INPUT C:\Users\jlsch\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT c:\Users\jlsch\Documents\glaube\bibeltexte\Hauptdokument.tex
+OUTPUT c:\Users\jlsch\Documents\glaube\bibeltexte\Hauptdokument.log
+INPUT .\inc\bible_class.cls
+INPUT .\inc\bible_class.cls
+INPUT inc\bible_class.cls
+INPUT .\inc\bible_class.cls
+INPUT .\inc\bible_class.cls
+INPUT .\inc\bible_class.cls
+INPUT inc\bible_class.cls
+INPUT .\inc\bible_class.cls
+INPUT inc\bible_class.cls
 INPUT C:\Program Files\MiKTeX\tex\latex\koma-script\scrreprt.cls
 INPUT C:\Program Files\MiKTeX\tex\latex\koma-script\scrreprt.cls
 INPUT C:\Program Files\MiKTeX\tex\latex\koma-script\scrreprt.cls
@@ -216,17 +216,17 @@ INPUT C:\Program Files\MiKTeX\tex\latex\koma-script\scrsize12pt.clo
 INPUT C:\Program Files\MiKTeX\tex\latex\koma-script\scrsize12pt.clo
 INPUT C:\Program Files\MiKTeX\tex\latex\koma-script\scrsize12pt.clo
 INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecrm1200.tfm
-INPUT c:\Users\lothi\Documents\Bibelschule\inc\styles.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\inc\styles.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\inc\styles.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\inc\styles.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\inc\styles.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\inc\styles.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\inc\styles.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\inc\styles.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\inc\styles.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\inc\styles.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\inc\styles.tex
+INPUT .\inc\styles.tex
+INPUT .\inc\styles.tex
+INPUT .\inc\styles.tex
+INPUT .\inc\styles.tex
+INPUT .\inc\styles.tex
+INPUT inc\styles.tex
+INPUT .\inc\styles.tex
+INPUT .\inc\styles.tex
+INPUT .\inc\styles.tex
+INPUT .\inc\styles.tex
+INPUT inc\styles.tex
 INPUT C:\Program Files\MiKTeX\tex\latex\bibleref-german\bibleref-german.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\bibleref-german\bibleref-german.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\bibleref-german\bibleref-german.sty
@@ -829,6 +829,10 @@ INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\pd1enc.def
 INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\pd1enc.def
 INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\pd1enc.def
 INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\pd1enc.def
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hyperref-langpatches.def
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hyperref-langpatches.def
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hyperref-langpatches.def
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hyperref-langpatches.def
 INPUT C:\Program Files\MiKTeX\tex\generic\intcalc\intcalc.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\intcalc\intcalc.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\intcalc\intcalc.sty
@@ -853,6 +857,10 @@ INPUT C:\Program Files\MiKTeX\tex\generic\etexcmds\etexcmds.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\etexcmds\etexcmds.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\infwarerr\infwarerr.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\puenc.def
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\puenc.def
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\puenc.def
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\puenc.def
 INPUT C:\Program Files\MiKTeX\tex\latex\url\url.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\url\url.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\url\url.sty
@@ -953,17 +961,17 @@ INPUT C:\Program Files\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\bigintcalc\bigintcalc.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\infwarerr\infwarerr.sty
-INPUT c:\Users\lothi\Documents\Bibelschule\inc\bibelstyle.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\inc\bibelstyle.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\inc\bibelstyle.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\inc\bibelstyle.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\inc\bibelstyle.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\inc\bibelstyle.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\inc\bibelstyle.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\inc\bibelstyle.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\inc\bibelstyle.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\inc\bibelstyle.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\inc\bibelstyle.tex
+INPUT .\inc\bibelstyle.tex
+INPUT .\inc\bibelstyle.tex
+INPUT .\inc\bibelstyle.tex
+INPUT .\inc\bibelstyle.tex
+INPUT .\inc\bibelstyle.tex
+INPUT inc\bibelstyle.tex
+INPUT .\inc\bibelstyle.tex
+INPUT .\inc\bibelstyle.tex
+INPUT .\inc\bibelstyle.tex
+INPUT .\inc\bibelstyle.tex
+INPUT inc\bibelstyle.tex
 INPUT C:\Program Files\MiKTeX\tex\latex\lm\t1lmr.fd
 INPUT C:\Program Files\MiKTeX\tex\latex\lm\t1lmr.fd
 INPUT C:\Program Files\MiKTeX\tex\latex\lm\t1lmr.fd
@@ -980,19 +988,19 @@ INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT c:\Users\lothi\Documents\Bibelschule\Hauptdokument.aux
-INPUT c:\Users\lothi\Documents\Bibelschule\Hauptdokument.aux
-INPUT c:\Users\lothi\Documents\Bibelschule\Hauptdokument.aux
-INPUT c:\Users\lothi\Documents\Bibelschule\Allgemein\Vorwort.aux
-INPUT c:\Users\lothi\Documents\Bibelschule\Allgemein\Vorwort.aux
-INPUT c:\Users\lothi\Documents\Bibelschule\Allgemein\Vorwort.aux
-INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibelAt.aux
-INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibelAt.aux
-INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibelAt.aux
-INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibliologie.aux
-INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibliologie.aux
-INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibliologie.aux
-OUTPUT c:\Users\lothi\Documents\Bibelschule\Hauptdokument.aux
+INPUT .\Hauptdokument.aux
+INPUT Hauptdokument.aux
+INPUT Hauptdokument.aux
+INPUT .\Allgemein\Vorwort.aux
+INPUT Allgemein\Vorwort.aux
+INPUT Allgemein\Vorwort.aux
+INPUT .\Kurs\bibelAt.aux
+INPUT Kurs\bibelAt.aux
+INPUT Kurs\bibelAt.aux
+INPUT .\Kurs\bibliologie.aux
+INPUT Kurs\bibliologie.aux
+INPUT Kurs\bibliologie.aux
+OUTPUT c:\Users\jlsch\Documents\glaube\bibeltexte\Hauptdokument.aux
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -1046,18 +1054,18 @@ INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\kvoptions\kvoptions.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
-INPUT c:\Users\lothi\Documents\Bibelschule\Hauptdokument.out
-INPUT c:\Users\lothi\Documents\Bibelschule\Hauptdokument.out
-INPUT c:\Users\lothi\Documents\Bibelschule\Hauptdokument.out
-INPUT c:\Users\lothi\Documents\Bibelschule\Hauptdokument.out
-INPUT c:\Users\lothi\Documents\Bibelschule\Hauptdokument.out
-INPUT c:\Users\lothi\Documents\Bibelschule\Hauptdokument.out
-INPUT c:\Users\lothi\Documents\Bibelschule\Hauptdokument.out
-INPUT c:\Users\lothi\Documents\Bibelschule\Hauptdokument.out
-INPUT c:\Users\lothi\Documents\Bibelschule\Hauptdokument.out
-INPUT c:\Users\lothi\Documents\Bibelschule\Hauptdokument.out
-OUTPUT c:\Users\lothi\Documents\Bibelschule\Hauptdokument.out
-OUTPUT c:\Users\lothi\Documents\Bibelschule\Hauptdokument.pdf
+INPUT .\Hauptdokument.out
+INPUT Hauptdokument.out
+INPUT .\Hauptdokument.out
+INPUT Hauptdokument.out
+INPUT .\Hauptdokument.out
+INPUT Hauptdokument.out
+INPUT .\Hauptdokument.out
+INPUT Hauptdokument.out
+INPUT .\Hauptdokument.out
+INPUT .\Hauptdokument.out
+OUTPUT c:\Users\jlsch\Documents\glaube\bibeltexte\Hauptdokument.out
+OUTPUT c:\Users\jlsch\Documents\glaube\bibeltexte\Hauptdokument.pdf
 INPUT C:\Program Files\MiKTeX\tex\latex\bookmark\bookmark.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\bookmark\bookmark.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\bookmark\bookmark.sty
@@ -1081,13 +1089,13 @@ INPUT C:\Program Files\MiKTeX\tex\latex\lm\t1lmss.fd
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmss12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmssbx10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmssbx10.tfm
-INPUT c:\Users\lothi\Documents\Bibelschule\Daten\images\GBSM.png
-INPUT c:\Users\lothi\Documents\Bibelschule\Daten\images\GBSM.png
-INPUT c:\Users\lothi\Documents\Bibelschule\Daten\images\GBSM.png
-INPUT c:\Users\lothi\Documents\Bibelschule\Daten\images\GBSM.png
-INPUT c:\Users\lothi\Documents\Bibelschule\Daten\images\GBSM.png
-INPUT c:\Users\lothi\Documents\Bibelschule\Daten\images\GBSM.png
-INPUT c:\Users\lothi\Documents\Bibelschule\Daten\images\GBSM.png
+INPUT .\Daten\images\GBSM.png
+INPUT .\Daten\images\GBSM.png
+INPUT Daten\images\GBSM.png
+INPUT .\Daten\images\GBSM.png
+INPUT .\Daten\images\GBSM.png
+INPUT .\Daten\images\GBSM.png
+INPUT .\Daten\images\GBSM.png
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmr17.tfm
 INPUT C:\Program Files\MiKTeX\tex\latex\lm\ot1lmr.fd
 INPUT C:\Program Files\MiKTeX\tex\latex\lm\ot1lmr.fd
@@ -1115,31 +1123,31 @@ INPUT C:\Program Files\MiKTeX\tex\latex\lm\omxlmex.fd
 INPUT C:\Program Files\MiKTeX\tex\latex\lm\omxlmex.fd
 INPUT C:\Program Files\MiKTeX\tex\latex\lm\omxlmex.fd
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\lmex10.tfm
-INPUT C:\Users\lothi\AppData\Local\MiKTeX\pdftex\config\pdftex.map
-INPUT c:\Users\lothi\Documents\Bibelschule\Hauptdokument.toc
-INPUT c:\Users\lothi\Documents\Bibelschule\Hauptdokument.toc
-INPUT c:\Users\lothi\Documents\Bibelschule\Hauptdokument.toc
+INPUT C:\Users\jlsch\AppData\Local\MiKTeX\pdftex\config\pdftex.map
+INPUT .\Hauptdokument.toc
+INPUT Hauptdokument.toc
+INPUT Hauptdokument.toc
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\rm-lmr8.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\rm-lmr6.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\lmmi8.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\lmmi6.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\lmsy8.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\lmsy6.tfm
-OUTPUT c:\Users\lothi\Documents\Bibelschule\Hauptdokument.toc
-INPUT c:\Users\lothi\Documents\Bibelschule\Allgemein\Vorwort.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\Allgemein\Vorwort.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\Allgemein\Vorwort.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\Allgemein\Vorwort.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\Allgemein\Vorwort.tex
-OUTPUT c:\Users\lothi\Documents\Bibelschule\Allgemein\Vorwort.aux
-INPUT c:\Users\lothi\Documents\Bibelschule\Allgemein\Vorwort.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\Allgemein\Vorwort.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\Allgemein\Vorwort.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\Allgemein\Vorwort.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\Allgemein\Vorwort.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\Allgemein\Vorwort.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\Allgemein\Vorwort.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\Allgemein\Vorwort.tex
+OUTPUT c:\Users\jlsch\Documents\glaube\bibeltexte\Hauptdokument.toc
+INPUT .\Allgemein\Vorwort.tex
+INPUT .\Allgemein\Vorwort.tex
+INPUT .\Allgemein\Vorwort.tex
+INPUT .\Allgemein\Vorwort.tex
+INPUT .\Allgemein\Vorwort.tex
+OUTPUT c:\Users\jlsch\Documents\glaube\bibeltexte\Allgemein\Vorwort.aux
+INPUT .\Allgemein\Vorwort.tex
+INPUT .\Allgemein\Vorwort.tex
+INPUT .\Allgemein\Vorwort.tex
+INPUT .\Allgemein\Vorwort.tex
+INPUT .\Allgemein\Vorwort.tex
+INPUT Allgemein\Vorwort.tex
+INPUT .\Allgemein\Vorwort.tex
+INPUT Allgemein\Vorwort.tex
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmssbx10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmr8.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmr10.tfm
@@ -1159,52 +1167,52 @@ INPUT C:\Program Files\MiKTeX\tex\latex\lm\ts1lmr.fd
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ts1-lmr12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmbx12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmssbx10.tfm
-INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibelAt.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibelAt.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibelAt.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibelAt.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibelAt.tex
-OUTPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibelAt.aux
-INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibelAt.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibelAt.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibelAt.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibelAt.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibelAt.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibelAt.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibelAt.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibelAt.tex
+INPUT .\Kurs\bibelAt.tex
+INPUT .\Kurs\bibelAt.tex
+INPUT .\Kurs\bibelAt.tex
+INPUT .\Kurs\bibelAt.tex
+INPUT .\Kurs\bibelAt.tex
+OUTPUT c:\Users\jlsch\Documents\glaube\bibeltexte\Kurs\bibelAt.aux
+INPUT .\Kurs\bibelAt.tex
+INPUT .\Kurs\bibelAt.tex
+INPUT .\Kurs\bibelAt.tex
+INPUT .\Kurs\bibelAt.tex
+INPUT .\Kurs\bibelAt.tex
+INPUT Kurs\bibelAt.tex
+INPUT .\Kurs\bibelAt.tex
+INPUT Kurs\bibelAt.tex
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmcsc10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmri8.tfm
-INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibliologie.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibliologie.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibliologie.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibliologie.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibliologie.tex
-OUTPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibliologie.aux
-INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibliologie.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibliologie.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibliologie.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibliologie.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibliologie.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibliologie.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibliologie.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibliologie.tex
-INPUT c:\Users\lothi\Documents\Bibelschule\Hauptdokument.bbl
-INPUT c:\Users\lothi\Documents\Bibelschule\Hauptdokument.bbl
-INPUT c:\Users\lothi\Documents\Bibelschule\Hauptdokument.bbl
-INPUT c:\Users\lothi\Documents\Bibelschule\Hauptdokument.bbl
-INPUT c:\Users\lothi\Documents\Bibelschule\Hauptdokument.aux
-INPUT c:\Users\lothi\Documents\Bibelschule\Allgemein\Vorwort.aux
-INPUT c:\Users\lothi\Documents\Bibelschule\Allgemein\Vorwort.aux
-INPUT c:\Users\lothi\Documents\Bibelschule\Allgemein\Vorwort.aux
-INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibelAt.aux
-INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibelAt.aux
-INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibelAt.aux
-INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibliologie.aux
-INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibliologie.aux
-INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibliologie.aux
-INPUT c:\Users\lothi\Documents\Bibelschule\Hauptdokument.out
-INPUT c:\Users\lothi\Documents\Bibelschule\Hauptdokument.out
+INPUT .\Kurs\bibliologie.tex
+INPUT .\Kurs\bibliologie.tex
+INPUT .\Kurs\bibliologie.tex
+INPUT .\Kurs\bibliologie.tex
+INPUT .\Kurs\bibliologie.tex
+OUTPUT c:\Users\jlsch\Documents\glaube\bibeltexte\Kurs\bibliologie.aux
+INPUT .\Kurs\bibliologie.tex
+INPUT .\Kurs\bibliologie.tex
+INPUT .\Kurs\bibliologie.tex
+INPUT .\Kurs\bibliologie.tex
+INPUT .\Kurs\bibliologie.tex
+INPUT Kurs\bibliologie.tex
+INPUT .\Kurs\bibliologie.tex
+INPUT Kurs\bibliologie.tex
+INPUT .\Hauptdokument.bbl
+INPUT Hauptdokument.bbl
+INPUT .\Hauptdokument.bbl
+INPUT Hauptdokument.bbl
+INPUT Hauptdokument.aux
+INPUT .\Allgemein\Vorwort.aux
+INPUT Allgemein\Vorwort.aux
+INPUT Allgemein\Vorwort.aux
+INPUT .\Kurs\bibelAt.aux
+INPUT Kurs\bibelAt.aux
+INPUT Kurs\bibelAt.aux
+INPUT .\Kurs\bibliologie.aux
+INPUT Kurs\bibliologie.aux
+INPUT Kurs\bibliologie.aux
+INPUT .\Hauptdokument.out
+INPUT .\Hauptdokument.out
 INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-ec.enc
 INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-rm.enc
 INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-mathit.enc
