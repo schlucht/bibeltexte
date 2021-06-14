@@ -1174,7 +1174,14 @@ INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibelAt.tex
 INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibelAt.tex
 INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibelAt.tex
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmcsc10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmri8.tfm
+INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibelkommentar\1_Moses\fragen.tex
+INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibelkommentar\1_Moses\fragen.tex
+INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibelkommentar\1_Moses\fragen.tex
+INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibelkommentar\1_Moses\fragen.tex
+INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibelkommentar\1_Moses\6.tex
+INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibelkommentar\1_Moses\6.tex
+INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibelkommentar\1_Moses\6.tex
+INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibelkommentar\1_Moses\6.tex
 INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibliologie.tex
 INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibliologie.tex
 INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibliologie.tex
@@ -1205,9 +1212,9 @@ INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibliologie.aux
 INPUT c:\Users\lothi\Documents\Bibelschule\Kurs\bibliologie.aux
 INPUT c:\Users\lothi\Documents\Bibelschule\Hauptdokument.out
 INPUT c:\Users\lothi\Documents\Bibelschule\Hauptdokument.out
-INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-ec.enc
 INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-rm.enc
 INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-mathit.enc
+INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-ec.enc
 INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-ts1.enc
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmbx12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmbx12.pfb
@@ -1229,7 +1236,5 @@ INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmri12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmri12.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmri8.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmri8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmssbx10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmssbx10.pfb
