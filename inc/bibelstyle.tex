@@ -30,13 +30,27 @@
 %		\end{bibeltext}
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \newcommand{\bibtit}[1]{\large\bib{#1}}
+% % \newcommand{\tmpbib}{Hallo}
+% \newenvironment{bibeltext}[3]{%
+% 	\quote \begin{itshape}			
+% 		\biblerefformat{lang}
+% 		\newcommand{\tmpbib}{\newline\textbf{\bibleverse{#2}(#3)} (\bib{#1})}
+% 		 }{%
+% 		\tmpbib
+% 	\end{itshape}
+% 	\endquote		
+% }
+
 \newcommand{\bibtit}[1]{\large\bib{#1}}
-% \newcommand{\tmpbib}{Hallo}
+\newcommand{\tmpbib}{Hallo}
 \newenvironment{bibeltext}[3]{%
-	\quote \begin{itshape}			
+	\quote \begin{itshape}
+			(\bib{#1})\newline	
 		\biblerefformat{lang}
-		\newcommand{\tmpbib}{\newline\textbf{\bibleverse{#2}(#3)} (\bib{#1})}
-		 }{%
+		\renewcommand{\tmpbib}{\textbf{\bibleverse{#2}(#3)}}		 
+	}{%	
+		\newline
 		\tmpbib
 	\end{itshape}
 	\endquote		
