@@ -1,0 +1,14 @@
+{
+    "files.exclude": {
+        "**/*.*.gz": true,
+        "**/*.aux": true,
+        "**/*.bak": true,
+        "**/*.bbl": true,
+        "**/*.bcf": true,
+        "**/*.blg": true,
+        "**/*.fdb_*": true,
+        "**/*.fls": true,
+        "**/*.out": true,
+        "**/*.toc": true
+    }
+}
