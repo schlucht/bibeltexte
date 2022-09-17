@@ -3,13 +3,13 @@
 \input{inc/styles}
 \input{inc/bibelstyle}
 
-\pagestyle{fancy}
-\fancyhf{}
-\rhead{Bibel Kommentar}
-\lhead{\leftmark}
-\cfoot{Seite \thepage \hspace{1pt} von \pageref{LastPage}}
-\renewcommand{\footnoterule}
-    {\noindent\smash{\rule[5pt]{\textwidth}{0.4pt}}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% Kopf- Fusszeile %%%%%%%%%%%%%%%%%%%%
+\pagestyle{scrheadings}
+\addtokomafont{headsepline}{\color{orange}}
+%\chead{\pagemark}
+%\ihead{\headmark}
 
 
 %%%%%%%%%%%%% Titelseite %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -20,7 +20,7 @@
     \includegraphics[scale=1]{Bilder/logo.png}\\
     \textbf{Bibel Kommentare}
 }
-%\pagestyle{headings}
+
 
 %%%%%%%%%%%%%%%%% Beginn Dokument %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \setlength{\parindent}{6pt}
