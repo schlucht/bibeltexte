@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{bible_class}
+\ProvidesClass{inc/bible_class}
 \LoadClass[11pt]{scrreprt}
 
 \RequirePackage[ngerman]{babel}
