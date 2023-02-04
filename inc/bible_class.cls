@@ -1,6 +1,6 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{inc/bible_class}
-\LoadClass[11pt]{scrbook}
+\LoadClass[11pt, twoside]{scrbook}
 
 \RequirePackage{scrlayer-scrpage}
 \RequirePackage[ngerman]{babel}
