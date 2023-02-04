@@ -103,8 +103,12 @@ Theologisch kann viel von den Patriarchen gelernt werden. Auch die Geschichte vo
 \subsection{WAS?}
 \subsection{WIE?}
 \subsection{Übersichtsfragen zu 3. Mose}
+<<<<<<< HEAD
+    Siehe die Übersichtsfragen in 2. Mose.
+=======
     \input{Kurs/bibelkommentar/3_Moses/fragen.tex}
 \subsection{Persönliche Kapitel Kommentare}
+>>>>>>> d1d440b060361b51162e2f3650f133e254aa898b
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%% 4. Mose
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -115,8 +119,12 @@ Theologisch kann viel von den Patriarchen gelernt werden. Auch die Geschichte vo
 \subsection{WAS?}
 \subsection{WIE?}
 \subsection{Übersichtsfragen zu 4. Mose}
+<<<<<<< HEAD
+Siehe die Übersichtsfragen in 2. Mose.
+=======
     \input{Kurs/bibelkommentar/4_Moses/fragen.tex}
 \subsection{Persönliche Kapitel Kommentare}
+>>>>>>> d1d440b060361b51162e2f3650f133e254aa898b
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%% 5. Mose
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -127,8 +135,12 @@ Theologisch kann viel von den Patriarchen gelernt werden. Auch die Geschichte vo
 \subsection{WAS?}
 \subsection{WIE?}
 \subsection{Übersichtsfragen zu 5. Mose}
+<<<<<<< HEAD
+Siehe die Übersichtsfragen in 2. Mose.
+=======
     \input{Kurs/bibelkommentar/5_Moses/fragen.tex}
 \subsection{Persönliche Kapitel Kommentare}
+>>>>>>> d1d440b060361b51162e2f3650f133e254aa898b
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%% Josua
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
