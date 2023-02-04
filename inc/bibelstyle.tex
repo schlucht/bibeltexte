@@ -42,7 +42,14 @@
 % 	\endquote		
 % }
 
-\newcommand{\bibtit}[1]{\large\bib{#1}}
+%Kommando für Bibelstellen
+\newcommand{\biblezit}[2]{%
+	\bib{Sch2} 
+	\biblerefformat{lang}
+	\bibleverse{#1}(#2)
+}
+
+%Kommando für Bibeltexte
 \newcommand{\tmpbib}{Hallo}
 \newenvironment{bibeltext}[3]{%
 	\quote \begin{itshape}
