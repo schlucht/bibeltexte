@@ -1,4 +1,3 @@
-
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{bible_class}
 \LoadClass[11pt]{scrreprt}
